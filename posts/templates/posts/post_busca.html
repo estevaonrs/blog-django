@@ -1,0 +1,4 @@
+{% extends 'posts/index.html' %}
+{% load static %}
+
+{% block titulo %}{{ request.GET.termo|title }} | Pesquisa | {% endblock %}
